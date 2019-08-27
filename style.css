@@ -1,0 +1,75 @@
+ body {
+            background: #f6f6f6;
+        }
+        .min {
+            max-width: 920px;
+            border: 1px solid white;
+            box-shadow: 0 0 3px #AAAAAA;
+            border-bottom-right-radius: 4px;
+            margin: 0 auto;
+        }
+        .img_window {
+            overflow: hidden;
+            width: 100%;
+            min-height: 400px;
+            position: relative;
+        }
+        .img_body {
+            width: 3860px;
+            position: absolute;
+            transition: all 0.5s;
+        }
+        .img_body > div {
+            float: left;
+        }
+        footer {
+            width: 100%;
+            height: 45px;
+            background: #eaeaea; /* Old browsers */
+            background: linear-gradient(to bottom, #eaeaea 1%, #f8f8f8 50%, #f2f2f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            text-align: center;
+        }
+        .footer_img {
+            height: 100%;
+            display: inline-block;
+        }
+        .active {
+            background: url('https://demo.tutorialzine.com/2009/11/beautiful-apple-gallery-slideshow/img/active_bg.png') no-repeat;
+        }
+        .footer_img > div {
+            width: 60px;
+            height: 45px;
+            float: left;
+            position: relative;
+        }
+        .footer_img > div > :last-child {
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+            background: url("https://demo.tutorialzine.com/2009/11/beautiful-apple-gallery-slideshow/img/divider.png") no-repeat left;
+        }
+        .footer_img > :first-child {
+            display: inline-block;
+            height: 100%;
+            width: 2px;
+            background: url("https://demo.tutorialzine.com/2009/11/beautiful-apple-gallery-slideshow/img/divider.png") no-repeat right;
+        }
+        .footer_img > div > img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .task2{
+            text-align: center;
+            margin-top: 20px;
+        }
+        .div {
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+            display: none;
+            margin: 0 auto;
+        }
